@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive|Cutive+Mono|Oranienbaum" rel="stylesheet">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Novafy</title>
+    
+
+</head>
+<body>
+    <!-- Header bar -->
+    <div class="header">
+        <header>
+            <div id="title">
+                <h1>Novafy</h1>
+                <h5><i>The 12 things you need to know</i></h5>
+            </div>
+        </header>
+    </div>
+
+    <div class="container" id="main-content">
+
+        <!-- SECTION 1: Play All Bar -->
+        <div id="play-all-bar">    
+            <a id="mini-play-all" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">play_arrow</i></a> 
+        </div>
+
+        <!-- SECTION 2: News Panels -->
+        <h2>Latest Stories</h2>
+        <div id="foxPanel">
+            <ul class="artPanel collapsible" data-collapsible="accordion"></ul>
+        </div>
+        <div id="espnPanel">
+            <ul class="artPanel collapsible" data-collapsible="accordion"></ul>
+        </div>
+        <div id="nyTimesPanel">
+            <ul class="artPanel collapsible" data-collapsible="accordion"></ul>
+        </div>
+        <div id="twitterPanel">
+            <ul class="artPanel collapsible" data-collapsible="accordion"></ul>
+        </div>
+
+        <!-- SECTION 3: Read Later -->
+        <h2>Saved Stories</h2>
+        <div id="readLaterSec">
+             <ul class="artPanel collapsible" data-collapsible="accordion"></ul>
+        </div>
+
+    </div>
+    <footer>
+        Copyright &copy; 2018 Novafy by Sijui - UCF Coding Bootcamp
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <!-- Text-to-Speech API -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <!-- Own JavaScript -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
