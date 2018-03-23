@@ -1,13 +1,6 @@
 # Novafy
 
-Group Project 1 at UCF Coding Bootcamp, January 2018.
-
-## Team 'Sijui' Members: 
-
-Jean Paul (Team Lead)
-Ruha Peera
-Osman Mendieta-Castro
-Derek Bocskey
+Group Project 1 at UCF Coding Bootcamp, January 2018, by TEAM SIJUI
 
 ## Project Description: 
 
