@@ -27,14 +27,14 @@ $(document).ready(function(){
 	***********************************/
 
 		//1. Firebase
-	var config = {
-		apiKey: "AIzaSyB6eP0j1WYKAW7LMMFeH5deH4R7D21fWuM",
-		authDomain: "my-firebase-proj-45c06.firebaseapp.com",
-		databaseURL: "https://my-firebase-proj-45c06.firebaseio.com",
-		projectId: "my-firebase-proj-45c06",
-		storageBucket: "my-firebase-proj-45c06.appspot.com",
-		messagingSenderId: "205248542343"
-	};
+	 var config = {
+	    apiKey: "AIzaSyDocrJbz0m-o1wwQrmOPMIcwpKWGgQ16_0",
+	    authDomain: "novafy-8049a.firebaseapp.com",
+	    databaseURL: "https://novafy-8049a.firebaseio.com",
+	    projectId: "novafy-8049a",
+	    storageBucket: "novafy-8049a.appspot.com",
+	    messagingSenderId: "690803384128"
+	  };
 	firebase.initializeApp(config);
 
 		// Hold the database in a variable
